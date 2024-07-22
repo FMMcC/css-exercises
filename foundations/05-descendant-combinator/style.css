@@ -1,0 +1,12 @@
+/* comment/uncomment chosen combo as desired */
+
+/* div p */
+/* .container .text */
+/* .container p */
+div .text
+{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
