@@ -14,9 +14,8 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   /* FM ADDS */
   display: flex;
-  align-items: center;
+  justify-content: space-between; /* by splitting into left and right containers, only needs equal space*/
   padding: 5px;
-  gap: 10px;
 }
 
 .profile-image {
@@ -51,14 +50,15 @@ a {
 ul {
   list-style-type: none;
   /* FM ADDS */
-  flex: 1;
-  padding: 0;
   display: flex;
+  padding: 0;
+  margin: 0;
   gap: 10px;
 }
 
 /* FM adds */
-.right{
+.right,
+.left{ /*left is logo and links - logo not supposed to be apart from links!*/
 display: flex;
 gap: 10px;
 align-items: center;
