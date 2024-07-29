@@ -52,7 +52,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
-  margin: 0; /*FM add*/
+  /* margin: 0; */ /*FM add*/
 }
 
 button {
@@ -75,14 +75,24 @@ button.cancel {
 
 /*FM adds*/
 .header{
-  font-weight: bold;
-  font-size: 1.1rem;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.right{
+/* .right{
   display: flex;
   flex-flow: column wrap;
   gap: 15px
+} */
+
+.icon{
+  flex-shrink: 0;
+}
+
+.text{
+  margin-bottom: 10px;
 }
